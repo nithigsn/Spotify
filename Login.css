@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+hr{
+    color: gray;
+}
+
+header {
+    display: flex;
+    height: 60px;
+    width: 100vw;
+    background-color: black;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 100vh;
+    padding: 50px;
+    padding-top:150px ;
+    padding-bottom: 150px;
+}
+.upperbox{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.upperbox a{
+    border: 1px solid white;
+    width: 250px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 15px;
+
+
+}
+.lowerbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   text-align: left;
+   align-items: center;
+}
+
+.lowerbox a{
+    color: white;
+}
+input{
+    height: 25px;
+    width: 270px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.login{
+    color: black;
+    font-weight: 500;
+    background-color:#1ed760 ;
+    height: 35px;
+    width: 270px;
+    border-radius: 10px;
+}
+.forgot{
+    text-align: center;
+    margin-top: 10px;
+}
+.re{
+    height: 5px;
+    width: 10px;
+    background-color: #1ed760;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    background-color: black;
+    height: 60px;
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+}

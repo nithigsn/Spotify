@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Spotify</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/faviconx/1.0.1/faviconx-min.js"
+        integrity="sha512-3kfyqP98yizPZDXvUcMJWLIVUWT7THRf7TC0Aw//CJiNlL0ZZR6KVU305WEWD4YD9yCc8cEDEzKW/PHuYeBvaw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="Login.css">
+    <link rel="shortcut icon" href="/Icons/spotify.png" type="image/x-icon">
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+hr{
+    color: gray;
+}
+
+header {
+    display: flex;
+    height: 60px;
+    width: 100vw;
+    background-color: black;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 100vh;
+    padding: 50px;
+    padding-top:150px ;
+    padding-bottom: 150px;
+}
+.upperbox{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.upperbox a{
+    border: 1px solid white;
+    width: 250px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 15px;
+
+
+}
+.lowerbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   text-align: left;
+   align-items: center;
+}
+
+.lowerbox a{
+    color: white;
+}
+input{
+    height: 25px;
+    width: 270px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.login{
+    color: black;
+    font-weight: 500;
+    background-color:#1ed760 ;
+    height: 35px;
+    width: 270px;
+    border-radius: 10px;
+}
+.forgot{
+    text-align: center;
+    margin-top: 10px;
+}
+.re{
+    height: 5px;
+    width: 10px;
+    background-color: #1ed760;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    background-color: black;
+    height: 60px;
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="/Icons/spotify.png" alt="" srcset="" height="20px" width="20px">
+        <span>Spotify</span>
+    </header>
+
+
+    <div class="container">
+
+        <div class="upperbox">
+            <h1>Log in to Spotify</h1>
+
+            <a href=""> <img src="/Icons/search.png" alt="" srcset="" height="20px" width="20px">Continue with
+                Google</a>
+            <a href=""> <img src="/Icons/communication.png" alt="" srcset="" height="20px" width="20px">Continue with
+                Facebook</a>
+            <a href=""> <img src="/Icons/apple.png" alt="" srcset="" height="20px" width="20px">Continue with
+                Apple</a>
+            <a href="">Continue with phone number</a>
+            <br>
+
+        </div>
+        <p>______________________________________________________________________________</p>
+
+        <div class="lowerbox">
+            <h6>Email or username</h6>
+            <input type="text" placeholder="Email or username">
+            <h6>Password</h6>
+            <input type="password">
+            
+            <!-- <button class="re"></button>     remember me--> 
+            <h6>Remember Me</h6>
+            <button class="login">Log in</button>
+            <br>
+            <br>
+            <a class="forgot" href="">Forgot your password?</a>
+            
+            <p>_____________________________________________________________________________</p>
+            <p> Don't Have an account? <a href="">Sign up for Spotify</a></p>
+        </div>
+
+
+
+        
+
+    </div>
+
+    <footer>
+        <p>This site is protected by reCAPTCHA and Google Privacy Policy and Terms of Services apply.</p>
+    </footer>
+
+</body>
+
+</html>
