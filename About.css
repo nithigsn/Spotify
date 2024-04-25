@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(8, 8, 8);
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 5px;
+    background-color:rgb(8, 146, 8);
+}
+.prpic{
+    border-radius: 50%;
+
+}
+
+header div{
+    margin-left: 10px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    height: 70px;
+    
+}
+.bx{
+    height: 70px;
+    width: 130px;
+    text-align: center;
+    background-color: rgb(8, 146, 8);
+    border-radius: 10px;
+
+}
+.user{
+    margin-left: 10px;
+}
+
+.player{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 400px;
+    background-color: green;
+  
+}
+.icon{
+    display: flex;
+    width: 80px;
+    justify-content: space-around;
+}
+
+footer{
+    position: fixed;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100vw;
+    bottom: 0px;
+}

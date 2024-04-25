@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(8, 8, 8);
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 5px;
+    background-color:rgb(8, 146, 8);
+}
+.prpic{
+    border-radius: 50%;
+
+}
+.button button{
+    background-color: green;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+header div{
+    margin-left: 10px;
+}
+.search{
+    margin-top: 10px;
+    background-color: rgb(63, 221, 63);
+    width: 100vw;
+    border-radius: 20px;
+}
+input{
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 20px;
+    width: 91vw;
+    border: none;
+    background-color: rgb(63, 221, 63);
+    color: black;
+    border: none;
+    outline: none;
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    margin-top: 10px;
+}
+.song{
+    padding-left: 10px;
+    display: flex;
+    justify-content: left;
+    height: 30px;
+    width: 100vw;
+    margin-top: 45px;
+    align-items: center;
+}
+.title{
+    padding-left: 15px;
+    
+}
+.player{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    background-color: green;
+}
+.icon{
+    display: flex;
+    width: 80px;
+    justify-content: space-around;
+}
+footer{
+    position: fixed;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100vw;
+    bottom: 0px;
+}
